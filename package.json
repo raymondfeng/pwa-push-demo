@@ -1,0 +1,15 @@
+{
+  "name": "pwa-push-demo",
+  "version": "1.0.0",
+  "description": "Send push notifications with a payload. This recipe shows how to send and receive a string, but data can be extracted from a Push message in a variety of formats (string, ArrayBuffer, Blob, JSON).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Raymond Feng <raymond@collab.land>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "web-push": "^3.6.4"
+  }
+}
